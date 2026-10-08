@@ -1,0 +1,9 @@
+{
+  "goal": { "sounds": [{ "name": "bluelockmod:goal", "volume": 0.9 }] },
+  "kick": { "sounds": [{ "name": "bluelockmod:kick", "volume": 0.65 }] },
+  "pass": { "sounds": [{ "name": "bluelockmod:pass", "volume": 0.55 }] },
+  "shoot": { "sounds": [{ "name": "bluelockmod:shoot", "volume": 0.75 }] },
+  "flow": { "sounds": [{ "name": "bluelockmod:flow", "volume": 0.8 }] },
+  "awakening": { "sounds": [{ "name": "bluelockmod:awakening", "volume": 0.9 }] },
+  "ui_confirm": { "sounds": [{ "name": "bluelockmod:ui_confirm", "volume": 0.5 }] }
+}

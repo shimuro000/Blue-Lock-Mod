@@ -1,0 +1,5 @@
+package com.bluelockmod.game;
+
+public enum MatchState {
+    WAITING, WARMUP, KICKOFF, PLAYING, GOAL, RESTART, HALFTIME, EXTRA_TIME, PENALTIES, FINISHED, CANCELLED
+}
