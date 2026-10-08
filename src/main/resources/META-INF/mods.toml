@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved - Original Mod Project"
+issueTrackerURL="https://example.invalid/bluelockmod/issues"
+[[mods]]
+modId="bluelockmod"
+version="${file.jarVersion}"
+displayName="Blue Lock Mod"
+authors="BlueLock Mod Team"
+description='''A competitive football RPG experience for Minecraft 1.20.1 Forge.'''
+[[dependencies.bluelockmod]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.26,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.bluelockmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

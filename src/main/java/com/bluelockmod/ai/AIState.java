@@ -1,0 +1,6 @@
+package com.bluelockmod.ai;
+
+public enum AIState {
+    IDLE, POSITION, SCAN, SUPPORT, RECEIVE, PASS, DRIBBLE, SHOOT,
+    PRESS, MARK, INTERCEPT, RECOVER, RETREAT, CELEBRATE
+}
