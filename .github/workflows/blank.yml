@@ -13,6 +13,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,13 +25,11 @@ jobs:
           java-version: '17'
           cache: gradle
 
-      - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '8.8'
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
 
       - name: Build Forge mod
-        run: gradle --no-daemon build
+        run: ./gradlew --no-daemon build
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
